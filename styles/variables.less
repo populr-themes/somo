@@ -1,0 +1,26 @@
+// These are the LESS variables Populr requires in every theme. As a user 
+// selects options in their Pop, these values will be overridden. Choose 
+// sensible defaults, as these will be seen by the user if they choose to go 
+// with your settings. If you are developing your theme in a sub-directory, you
+// will need to set that directory in @base-url (e.g. '../my-sub-directory')
+
+@base-url: '..';
+
+@background-color: #fff;
+@main-background-color: #fff;
+@text-color: #222;
+@text-color-inverse: spin(@text-color, 180);
+@accent-color: #000;
+@headline-font-family: 'Open Sans Condensed';
+@headline-font-weight: 700;
+@compliment-color: lighten(spin(@accent-color, 180), 20%);
+@startColor: @main-background-color;
+@endColor: darken(spin(@startColor, 180), 20%);
+
+@column-width: 40px;
+@baseline: 20px;
+@base-font-size: 14px;
+
+@headline-color: #000;
+@border-color: #666;
+@overlay-color: fade(@background-color,40%);
